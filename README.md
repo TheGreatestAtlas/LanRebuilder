@@ -2,59 +2,56 @@
 
 ## 🇵🇱 Opis
 
-Ten program służy do przebudowywania plików .lan z gier Reality Pump.<br>
-Jeżeli chcesz dodawać tym programem nowe wpisy do plików .lan to raczej użyj innych programów, które
-są łatwiejsze w obsłudze np. LanEditor od Alanova albo KS LangEdit od RP.<br>
-Ten program tak jak nazwa wskazuje - jest zorientowany bezpośrednio na masowe przebudowywanie plików .lan i do sprzątania wpisów.<br>
+Ten program służy do przebudowywania plików `.lan` z gier Reality Pump.  
+Jeżeli chcesz dodawać nowe wpisy do plików `.lan`, lepiej użyć innych narzędzi, które są łatwiejsze w obsłudze, np. **LanEditor** od Alanova albo **KS LangEdit** od RP.  
+LanRebuilder – jak sama nazwa wskazuje – jest przeznaczony głównie do masowego przebudowywania plików `.lan` i porządkowania wpisów.  
 
-### Pakiet zawiera programy:
-----
-LanExporter + LanImporter<br>
+### Pakiet zawiera:
+- **LanExporter**
+- **LanImporter**
+
+---
 
 ### LanExporter
------------
-Program, który służy do exportu plików .lan do .txt.
+Program służący do eksportu plików `.lan` do formatu `.txt`.
 
-Jak używać?:
-------------
-1. Włączamy program.
-2. Wprowadzamy nazwę pliku z formatem .lan.
-3. Program exportuje informacje do folderu o podobnej nazwie.
-4. Każdy plik translate to jeden wpis językowy.
-5. Plik _order.txt decyduje o tym, które pliki mają zostać skompilowane i w jakiej kolejności.
-6. Jeżeli chcemy dopisać wpis językowy, należy stworzyć nowy plik txt z translate oraz dopisać go do listy w _order.txt.
+#### Jak używać?
+1. Uruchom program.
+2. Podaj nazwę pliku `.lan`.
+3. Program wyeksportuje dane do folderu o tej samej nazwie.
+4. Każdy plik `.txt` odpowiada jednemu wpisowi językowemu.
+5. Plik `_order.txt` określa, które pliki zostaną skompilowane i w jakiej kolejności.
+6. Aby dodać nowy wpis językowy, utwórz plik `.txt` z tłumaczeniem i dopisz go do listy w `_order.txt`.
 
-Program działa również w trybie ARGC&ARGV:
-LanExporterByAtl.exe <nazwa pliku.lan>
+Program obsługuje także uruchamianie z parametrami w wierszu poleceń:<br>
+LanExporterByAtl.exe <nazwa pliku.lan><br>
 
--------------------------------------------------------------------------------------------------------------------------
+---
 
-#### LanImporter
------------
-Program, który służy do kompilacji folderu z plikami .txt do formatu .lan.
+### LanImporter
+Program służący do kompilacji folderu z plikami `.txt` do formatu `.lan`.
 
-Jak używać?:
-------------
-1. Włączamy program.
-2. Wprowadzamy nazwę folderu.
-3. Program kompiluje folder do postaci pliku z formatem .lan.
+#### Jak używać?
+1. Uruchom program.
+2. Podaj nazwę folderu.
+3. Program skompiluje folder do pliku `.lan`.
 
-Program działa również w trybie ARGC&ARGV:
-LanImporterByAtl.exe <nazwa folderu>
+Program obsługuje także uruchamianie z parametrami w wierszu poleceń:<br>
+LanImporterByAtl.exe <nazwa folderu><br>
 
--------------------------------------------------------------------------------------------------------------------------
+---
 
-### Dodatkowe informacje:
----------------------
-Plik o nazwie engine_flag.txt zawiera format, w którym są zapisane wpisy językowe.
+### Dodatkowe informacje
+Plik `engine_flag.txt` określa format, w którym zapisywane są wpisy językowe.  
 Przykłady formatów:
-1 = ANSI (char8_t)
-2 = UTF-16
-(większy od 2) = UTF-16
+- `1` = ANSI (char8_t)  
+- `2` = UTF-16  
+- `> 2` = UTF-16  
 
--------------------------------------------------------------------------------------------------------------------------
+---
 
-Programy obsługują pliki .lan z następujących gier:<br>
+### Obsługiwane gry
+Programy obsługują pliki `.lan` z następujących gier:
 -> Earth 2150: Escape from the Blue Planet,
 -> Earth 2150: The Moon Project,
 -> Earth 2150: Lost Souls,
@@ -62,56 +59,64 @@ Programy obsługują pliki .lan z następujących gier:<br>
 -> World War II: Panzer Claws/Frontline Attack: War Over Europe,
 -> World War III: Black Gold,
 -> KnightShift/Polanie 2/Once Upon a Knight,
--> KnightShift II Curse of Souls/Polanie 3,
+-> KnightShift II: Curse of Souls/Polanie 3,
 -> Częściowo Earth 2160 (format o wartości 3),
 -> Częściowo Two Worlds (format o wartości 3)
 
+---
+
 ## 🇬🇧 Description
 
+This program is used to rebuild `.lan` files from Reality Pump games.  
+If you want to add new entries to `.lan` files, it is better to use other tools that are easier to use, such as **LanEditor** from Alanov or **KS LangEdit** from RP.  
+LanRebuilder – as the name suggests – is mainly intended for mass rebuilding of `.lan` files and organizing entries.  
+
+### The package includes:
+- **LanExporter**
+- **LanImporter**
+
+---
+
 ### LanExporter
------------
-A program that is used to export .lan files to .txt.
+A program for exporting `.lan` files to `.txt` format.
 
-How to use:
------------
-1. Turn on the program.
-2. We enter the name of the .lan format file.
-3. The program exports the information to a directory with a similar name.
-4. Each translate file is one language entry.
-5. The _order.txt file decides which files are to be compiled and in what order.
-6. If you want to add a language entry, create a new txt file with translate and add it to the list in _order.txt.
+#### How to use?
+1. Run the program.
+2. Enter the name of the `.lan` file.
+3. The program will export the data to a folder with the same name.
+4. Each `.txt` file corresponds to one language entry.
+5. The `_order.txt` file specifies which files will be compiled and in what order.
+6. To add a new language entry, create a `.txt` file with the translation and add it to the list in `_order.txt`.
 
-The program also works in ARGC&ARGV mode:
-LanExporterByAtl.exe <filename.lan>
+The program also supports running with command line parameters:<br>
+LanExporterByAtl.exe <filename.lan><br>
 
--------------------------------------------------------------------------------------------------------------------------
+---
 
 ### LanImporter
------------
-A program that is used to compile a directory of .txt files into .lan format.
+A program used to compile a folder with `.txt` files into the `.lan` format.
 
-How to use:
-------------
-1. Turn on the program.
-2. We enter the name of the directory.
-3. The program compiles the directory into a file with .lan format.
+#### How to use?
+1. Run the program.
+2. Enter the folder name.
+3. The program will compile the folder into a `.lan` file.
 
-The program also works in ARGC&ARGV mode:
-LanImporterByAtl.exe <directory name>
+The program also supports running with command line parameters:<br>
+LanImporterByAtl.exe <folder name><br>
 
--------------------------------------------------------------------------------------------------------------------------
+---
 
-Additional information:
----------------------
-The file named engine_flag.txt contains the format in which language entries are stored.
+### Additional information
+The `engine_flag.txt` file specifies the format in which language entries are saved.  
 Format examples:
-1 = ANSI (char8_t)
-2 = UTF-16
-(greater than 2) = UTF-16
+- `1` = ANSI (char8_t)  
+- `2` = UTF-16  
+- `> 2` = UTF-16  
 
--------------------------------------------------------------------------------------------------------------------------
+---
 
-The programs supports .wpk files from the following games:<br>
+### Supported games
+The programs support `.lan` files from the following games:
 -> Earth 2150: Escape from the Blue Planet,
 -> Earth 2150: The Moon Project,
 -> Earth 2150: Lost Souls,
@@ -119,5 +124,6 @@ The programs supports .wpk files from the following games:<br>
 -> World War II: Panzer Claws/Frontline Attack: War Over Europe,
 -> World War III: Black Gold,
 -> KnightShift/Polanie 2/Once Upon a Knight,
--> KnightShift II Curse of Souls/Polanie 3,
--> Earth 2160,
+-> KnightShift II: Curse of Souls/Polanie 3,
+-> Partially Earth 2160 (format with a value of 3),
+-> Partially Two Worlds (format with a value of 3)
