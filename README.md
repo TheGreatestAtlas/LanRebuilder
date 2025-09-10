@@ -2,7 +2,7 @@
 
 ## 🇵🇱 Opis
 
-Ten program służy do przebudowywania plików `.lan` z gier Reality Pump.  
+Ten pakiet programów służy do przebudowywania plików `.lan` z gier Reality Pump.  
 Jeżeli chcesz dodawać nowe wpisy do plików `.lan`, lepiej użyć innych narzędzi, które są łatwiejsze w obsłudze, np. **LanEditor** od Alanova albo **KS LangEdit** od RP.  
 LanRebuilder – jak sama nazwa wskazuje – jest przeznaczony głównie do masowego przebudowywania plików `.lan` i porządkowania wpisów.  
 
@@ -67,7 +67,7 @@ Programy obsługują pliki `.lan` z następujących gier:
 
 ## 🇬🇧 Description
 
-This program is used to rebuild `.lan` files from Reality Pump games.  
+This package of programs is used to rebuild `.lan` files from Reality Pump games.  
 If you want to add new entries to `.lan` files, it is better to use other tools that are easier to use, such as **LanEditor** from Alanov or **KS LangEdit** from RP.  
 LanRebuilder – as the name suggests – is mainly intended for mass rebuilding of `.lan` files and organizing entries.  
 
