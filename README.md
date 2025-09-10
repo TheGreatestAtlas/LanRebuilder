@@ -51,17 +51,17 @@ Przykłady formatów:
 ---
 
 ### Obsługiwane gry
-Programy obsługują pliki `.lan` z następujących gier:
--> Earth 2150: Escape from the Blue Planet,
--> Earth 2150: The Moon Project,
--> Earth 2150: Lost Souls,
--> Heli Heroes,
--> World War II: Panzer Claws/Frontline Attack: War Over Europe,
--> World War III: Black Gold,
--> KnightShift/Polanie 2/Once Upon a Knight,
--> KnightShift II: Curse of Souls/Polanie 3,
--> Częściowo Earth 2160 (format o wartości 3),
--> Częściowo Two Worlds (format o wartości 3)
+Programy obsługują pliki `.lan` z następujących gier:<br>
+-> Earth 2150: Escape from the Blue Planet,<br>
+-> Earth 2150: The Moon Project,<br>
+-> Earth 2150: Lost Souls,<br>
+-> Heli Heroes,<br>
+-> World War II: Panzer Claws/Frontline Attack: War Over Europe,<br>
+-> World War III: Black Gold,<br>
+-> KnightShift/Polanie 2/Once Upon a Knight,<br>
+-> KnightShift II: Curse of Souls/Polanie 3,<br>
+-> Częściowo Earth 2160 (format o wartości 3),<br>
+-> Częściowo Two Worlds (format o wartości 3)<br>
 
 ---
 
@@ -116,14 +116,14 @@ Format examples:
 ---
 
 ### Supported games
-The programs support `.lan` files from the following games:
--> Earth 2150: Escape from the Blue Planet,
--> Earth 2150: The Moon Project,
--> Earth 2150: Lost Souls,
--> Heli Heroes,
--> World War II: Panzer Claws/Frontline Attack: War Over Europe,
--> World War III: Black Gold,
--> KnightShift/Polanie 2/Once Upon a Knight,
--> KnightShift II: Curse of Souls/Polanie 3,
--> Partially Earth 2160 (format with a value of 3),
--> Partially Two Worlds (format with a value of 3)
+The programs support `.lan` files from the following games:<br>
+-> Earth 2150: Escape from the Blue Planet,<br>
+-> Earth 2150: The Moon Project,<br>
+-> Earth 2150: Lost Souls,<br>
+-> Heli Heroes,<br>
+-> World War II: Panzer Claws/Frontline Attack: War Over Europe,<br>
+-> World War III: Black Gold,<br>
+-> KnightShift/Polanie 2/Once Upon a Knight,<br>
+-> KnightShift II: Curse of Souls/Polanie 3,<br>
+-> Partially Earth 2160 (format with a value of 3),<br>
+-> Partially Two Worlds (format with a value of 3)<br>
