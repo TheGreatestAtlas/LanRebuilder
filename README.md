@@ -24,7 +24,7 @@ Program służący do eksportu plików `.lan` do formatu `.txt`.
 6. Aby dodać nowy wpis językowy, utwórz plik `.txt` z tłumaczeniem i dopisz go do listy w `_order.txt`.
 
 Program obsługuje także uruchamianie z parametrami w wierszu poleceń:<br>
-LanExporterByAtl.exe <nazwa pliku.lan><br>
+LanExporterByAtl.exe nazwa_pliku.lan<br>
 
 ---
 
@@ -37,7 +37,7 @@ Program służący do kompilacji folderu z plikami `.txt` do formatu `.lan`.
 3. Program skompiluje folder do pliku `.lan`.
 
 Program obsługuje także uruchamianie z parametrami w wierszu poleceń:<br>
-LanImporterByAtl.exe <nazwa folderu><br>
+LanImporterByAtl.exe nazwa_folderu<br>
 
 ---
 
@@ -89,7 +89,7 @@ A program for exporting `.lan` files to `.txt` format.
 6. To add a new language entry, create a `.txt` file with the translation and add it to the list in `_order.txt`.
 
 The program also supports running with command line parameters:<br>
-LanExporterByAtl.exe <filename.lan><br>
+LanExporterByAtl.exe file_name.lan<br>
 
 ---
 
@@ -102,7 +102,7 @@ A program used to compile a folder with `.txt` files into the `.lan` format.
 3. The program will compile the folder into a `.lan` file.
 
 The program also supports running with command line parameters:<br>
-LanImporterByAtl.exe <folder name><br>
+LanImporterByAtl.exe directory_name<br>
 
 ---
 
