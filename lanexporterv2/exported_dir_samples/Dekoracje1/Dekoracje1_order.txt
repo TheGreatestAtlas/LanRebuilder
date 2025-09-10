@@ -1,0 +1,8 @@
+translateSkrzyniaDekoracyjna1.txt
+translateSkrzyniaDekoracyjna2.txt
+translateSkrzyniaDekoracyjna3.txt
+translatePrzyciskAktywny.txt
+translatePurpleTorch1.txt
+translatePurpleTorch2.txt
+translatePurpleTorch3.txt
+translatePurpleTorch4.txt
