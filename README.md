@@ -74,9 +74,9 @@ Programy obsługują pliki `.lan` z następujących gier:<br>
 -> 99 plikach .lan (czyli wszystkich) z gry KnightShift/Polanie 2/Once Upon a Knight - wynik testu 100%,<br>
 -> 106 plikach .lan (czyli wszystkich) z gry KnightShift II Curse of Souls/Polanie 3 - wynik testu 100%,<br>
 -> 4 plikach .lan (czyli wszystkich) z gry Earth 2160 - wynik testu 20%,<br>
-	- Niska wartość wyniku spowodowana trzema zaszyfrowanymi plikami .lan, w dodatku jedyny możliwy do otwarcia plik .lan zawiera dodatkowe wpisy, których mój program jeszcze nie obsługuje.
+	- Niska wartość wyniku spowodowana trzema zaszyfrowanymi plikami .lan, w dodatku jedyny możliwy do otwarcia plik .lan zawiera dodatkowe wpisy, których mój program jeszcze nie obsługuje.<br>
 -> 9 plikach .lan (czyli wszystkich) z gry Two Worlds - wynik testu 22%<br>
-	- Niska wartość wyniku spowodowana przez dodatkowe wpisy, których mój program jeszcze nie obsługuje.
+	- Niska wartość wyniku spowodowana przez dodatkowe wpisy, których mój program jeszcze nie obsługuje.<br>
 
 ---
 
@@ -154,6 +154,6 @@ The programs support `.lan` files from the following games:<br>
 -> 99 .lan files (i.e. all) from the game KnightShift/Polanie 2/Once Upon a Knight - test result 100%,<br>
 -> 106 .lan files (i.e. all) from the game KnightShift II Curse of Souls/Polanie 3 - test result 100%,<br>
 -> 4 .lan files (i.e. all) from the game Earth 2160 - test result 20%,<br>
-    - The low result is caused by three encrypted .lan files, and the only .lan file that can be opened contains additional entries that my program does not yet support.
+    - The low result is caused by three encrypted .lan files, and the only .lan file that can be opened contains additional entries that my program does not yet support.<br>
 -> 9 .lan files (i.e. all) from the game Two Worlds - test result 22%<br>
-    - The low result is caused by additional entries that my program does not yet support.
+    - The low result is caused by additional entries that my program does not yet support.<br>
