@@ -63,6 +63,21 @@ Programy obsługują pliki `.lan` z następujących gier:<br>
 -> Częściowo Earth 2160 (format o wartości 3),<br>
 -> Częściowo Two Worlds (format o wartości 3)<br>
 
+
+### Programy były testowane na:
+-> 1 plikach .lan (czyli wszystkich) z gry Earth 2150: Escape from the Blue Planet - wynik testu 100%,<br>
+-> 2 plikach .lan (czyli wszystkich) z gry Earth 2150: The Moon Project - wynik testu 100%,<br>
+-> 7 plikach .lan (czyli wszystkich) z gry Earth 2150: Lost Souls - wynik testu 100%,<br>
+-> 1 plikach .lan (czyli wszystkich) z gry Heli Heroes - wynik testu 100%,<br>
+-> 2 plikach .lan (czyli wszystkich) z gry World War II: Panzer Claws/Frontline Attack: War Over Europe - wynik testu 100%,<br>
+-> 2 plikach .lan (czyli wszystkich) z gry World War III: Black Gold - wynik testu 100%,<br>
+-> 99 plikach .lan (czyli wszystkich) z gry KnightShift/Polanie 2/Once Upon a Knight - wynik testu 100%,<br>
+-> 106 plikach .lan (czyli wszystkich) z gry KnightShift II Curse of Souls/Polanie 3 - wynik testu 100%,<br>
+-> 4 plikach .lan (czyli wszystkich) z gry Earth 2160 - wynik testu 20%,<br>
+	- Niska wartość wyniku spowodowana trzema zaszyfrowanymi plikami .lan, w dodatku jedyny możliwy do otwarcia plik .lan zawiera dodatkowe wpisy, których mój program jeszcze nie obsługuje.
+-> 9 plikach .lan (czyli wszystkich) z gry Two Worlds - wynik testu 22%<br>
+	- Niska wartość wyniku spowodowana przez dodatkowe wpisy, których mój program jeszcze nie obsługuje.
+
 ---
 
 ## 🇬🇧 Description
@@ -127,3 +142,18 @@ The programs support `.lan` files from the following games:<br>
 -> KnightShift II: Curse of Souls/Polanie 3,<br>
 -> Partially Earth 2160 (format with a value of 3),<br>
 -> Partially Two Worlds (format with a value of 3)<br>
+
+
+### The programs were tested on:
+-> 1 .lan file (i.e., all) from the game Earth 2150: Escape from the Blue Planet - test result 100%,<br>
+-> 2 .lan files (i.e., all) from the game Earth 2150: The Moon Project - test result 100%,<br>
+-> 7 .lan files (i.e. all) from the game Earth 2150: Lost Souls - test result 100%,<br>
+-> 1 .lan file (i.e. all) from the game Heli Heroes - test result 100%,<br>
+-> 2 .lan files (i.e. all) from the game World War II: Panzer Claws/Frontline Attack: War Over Europe - test result 100%,<br>
+-> 2 .lan files (i.e. all) from the game World War III: Black Gold - test result 100%,<br>
+-> 99 .lan files (i.e. all) from the game KnightShift/Polanie 2/Once Upon a Knight - test result 100%,<br>
+-> 106 .lan files (i.e. all) from the game KnightShift II Curse of Souls/Polanie 3 - test result 100%,<br>
+-> 4 .lan files (i.e. all) from the game Earth 2160 - test result 20%,<br>
+    - The low result is caused by three encrypted .lan files, and the only .lan file that can be opened contains additional entries that my program does not yet support.
+-> 9 .lan files (i.e. all) from the game Two Worlds - test result 22%<br>
+    - The low result is caused by additional entries that my program does not yet support.
